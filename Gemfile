@@ -7,6 +7,7 @@ ruby '2.4.1'
 gem 'rails', '~> 5.2.2'
 gem 'awesome_print'
 gem 'carrierwave'
+gem 'kaminari'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
