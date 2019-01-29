@@ -8,6 +8,8 @@ gem 'rails', '~> 5.2.2'
 gem 'awesome_print'
 gem 'carrierwave'
 gem 'kaminari'
+gem 'devise'
+gem 'devise-i18n'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

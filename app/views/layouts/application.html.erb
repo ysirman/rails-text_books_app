@@ -10,6 +10,11 @@
   </head>
 
   <body>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <% if user_signed_in? %>
+      <p><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></p>
+    <% end %>
     <% if I18n.locale.to_s == "en" %>
       <%= link_to('日本語', :locale => 'ja') %>
     <% else %>
