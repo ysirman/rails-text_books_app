@@ -1,0 +1,35 @@
+ja:
+  application_name: "書籍管理アプリ"
+  books:
+    index:
+      title: "書籍一覧"
+    new:
+      title: "新規作成"
+    edit:
+      title: "編集"
+  activerecord:
+    model:
+      book: "書籍"
+    attributes:
+      book:
+        title: "タイトル"
+        memo: "メモ"
+        author: "著者"
+        picture: "画像"
+  helpers:
+    action:
+      book:
+        new: "新しい本を追加"
+        show: "表示"
+        edit: "編集"
+        destroy: "削除"
+        destroy_confirm: "削除してもよろしいですか？"
+        back: "戻る"
+  flash:
+    success:
+      create: "本が追加されました。"
+      update: "本が更新されました。"
+      destroy: "本が削除されました。"
+  errors:
+    messages:
+      error_count: "エラーが%{count_ja}箇所あります。"
