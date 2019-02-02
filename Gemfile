@@ -10,6 +10,9 @@ gem 'carrierwave'
 gem 'kaminari'
 gem 'devise'
 gem 'devise-i18n'
+gem 'omniauth-github'
+gem 'dotenv-rails'
+gem 'byebug'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
