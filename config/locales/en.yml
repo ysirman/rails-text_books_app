@@ -7,6 +7,9 @@ en:
       title: "New Book"
     edit:
       title: "Editing Book"
+  users:
+    show:
+      title: "Profile"
   helpers:
     action:
       book:

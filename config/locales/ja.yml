@@ -7,6 +7,9 @@ ja:
       title: "新規作成"
     edit:
       title: "編集"
+  users:
+    show:
+      title: "プロフィール"
   activerecord:
     model:
       book: "書籍"
@@ -16,6 +19,10 @@ ja:
         memo: "メモ"
         author: "著者"
         picture: "画像"
+      user:
+        name: "名前"
+        email: "メールアドレス"
+        avatar: プロフィール画像
   helpers:
     action:
       book:
@@ -25,6 +32,9 @@ ja:
         destroy: "削除"
         destroy_confirm: "削除してもよろしいですか？"
         back: "戻る"
+      user:
+        edit: "編集"
+        log_out: "ログアウト"
   flash:
     success:
       create: "本が追加されました。"
