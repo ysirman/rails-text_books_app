@@ -1,0 +1,12 @@
+<h1><%= t(:".title") %></h1>
+
+<% if @user.avatar.attached? %>
+  <p><%= image_tag(@user.avatar.variant(resize: '50x50')) %></p>
+<% else %>
+  <p><%= image_tag('user_default.jpeg', size: '50x50') %></p>
+<% end %>
+<p><%= t(:"activerecord.attributes.user.name") %> : <%= @user.name %></p>
+<p><%= t(:"activerecord.attributes.user.email") %> : <%= @user.email %></p>
+
+<%= link_to t(:"helpers.action.user.edit"), edit_user_registration_path %>
+<%= link_to t(:"helpers.action.book.back"), books_path %>
