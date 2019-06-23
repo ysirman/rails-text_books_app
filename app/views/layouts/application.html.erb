@@ -17,7 +17,7 @@
         <% if current_user.avatar.attached? %>
           <%= image_tag(current_user.avatar.variant(resize: '24x24')) %>
         <% else %>
-          <%= image_tag('user_default.jpeg', size: '24x24') %>
+          <%= image_tag('user_default.jpg', size: '24x24') %>
         <% end %>
         <%= link_to current_user.name, "/users/#{current_user.id}" %>
         ｜<%= link_to t(:"helpers.action.user.log_out"), destroy_user_session_path, method: :delete %>

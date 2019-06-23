@@ -3,7 +3,7 @@
 <% if @user.avatar.attached? %>
   <p><%= image_tag(@user.avatar.variant(resize: '50x50')) %></p>
 <% else %>
-  <p><%= image_tag('user_default.jpeg', size: '50x50') %></p>
+  <p><%= image_tag('user_default.jpg', size: '50x50') %></p>
 <% end %>
 <p><%= t(:"activerecord.attributes.user.name") %> : <%= @user.name %></p>
 <p><%= t(:"activerecord.attributes.user.email") %> : <%= @user.email %></p>
